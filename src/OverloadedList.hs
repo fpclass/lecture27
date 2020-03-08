@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 -- Functional Programming (CS141)                                             --
--- Lecture 26: Type families                                                  --
+-- Lecture: Type families                                                     --
 --------------------------------------------------------------------------------
 
 {-# LANGUAGE OverloadedLists, TypeFamilies #-}
@@ -10,7 +10,7 @@ module OverloadedList where
 --------------------------------------------------------------------------------
 
 import GHC.Exts
-import qualified Lab4 as L
+import qualified LabRecDataTypes as L
 
 --------------------------------------------------------------------------------
 

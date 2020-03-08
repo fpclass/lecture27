@@ -1,16 +1,16 @@
 --------------------------------------------------------------------------------
 -- Functional Programming (CS141)                                             --
--- Lecture 26: Type families                                                  --
+-- Lecture: Type families                                                     --
 --------------------------------------------------------------------------------
 
 {-# LANGUAGE DataKinds, GADTs, KindSignatures, ScopedTypeVariables #-}
 {-# LANGUAGE TypeOperators, TypeFamilies #-}
 
-module Lecture26 where
+module Lecture where
 
 --------------------------------------------------------------------------------
 
-import qualified Lab4 as L
+import qualified LabRecDataTypes as L
 
 --------------------------------------------------------------------------------
 -- Previous lecture

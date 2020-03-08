@@ -1,2 +1,3 @@
-# lecture26
-Code shown in the 26th lecture, which is on "Type families"
+# Lecture: Type families
+
+Code shown in the CS141 lecture on type families.
