@@ -24,4 +24,17 @@ import qualified LabRecDataTypes as L
 --     fromListN _ xs = fromList xs
 --     toList :: l -> [Item l]
 
+instance Ord a => IsList (L.Tree a) where 
+    type Item (L.Tree a) = a 
+
+    toList = L.toList 
+
+    fromList xs = foldr (flip L.insert) L.empty xs 
+
+poultree :: L.Tree String 
+poultree = ["Duck", "Goose", "Chicken", "Pigeon"]
+
+digits :: L.Tree Int 
+digits = [8, 15, 4, 42, 23]
+
 --------------------------------------------------------------------------------
